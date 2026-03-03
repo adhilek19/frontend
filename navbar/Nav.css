@@ -1,0 +1,88 @@
+/* ===== CLEAN SAME-LAYOUT RESPONSIVE NAV ===== */
+
+.custom-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+/* Logo */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #555;
+}
+
+.nav-links a.active {
+  font-weight: 600;
+  color: black;
+}
+
+/* Right section */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Cart */
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: black;
+  color: white;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+/* Logout */
+.logout {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+
+  .brand-text {
+    display: none;
+  }
+
+  .dark-btn {
+    display: none; /* hide dark button */
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+
+}

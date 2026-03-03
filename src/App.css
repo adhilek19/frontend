@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+/* ══════════════════════════════════════════════
+   5G STORE — GLOBAL CSS — Cyber Minimal White
+   Inspired by: clean e-commerce (Cyber store)
+   Font: Manrope (geometric, clean, premium)
+   Palette: White · Near-black · Light greys
+   ══════════════════════════════════════════════ */
+
+:root {
+  --black:   #111111;
+  --dark:    #2d2d2d;
+  --mid:     #6b6b6b;
+  --light:   #9b9b9b;
+  --ghost:   #e8e8e8;
+  --bg:      #f5f5f5;
+  --bg2:     #f0f0f0;
+  --white:   #ffffff;
+  --red:     #e03030;
+  --green:   #2a9d5c;
+  --radius:  6px;
+  --shadow:  0 2px 10px rgba(0,0,0,0.07);
+  --shadow-hover: 0 8px 28px rgba(0,0,0,0.12);
+  --tr: 0.2s cubic-bezier(.4,0,.2,1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: var(--white);
+  color: var(--black);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+}
+
+/* ── Page fade-in ── */
+.container {
+  animation: page-in .4s ease both;
+}
+@keyframes page-in {
+  from { opacity:0; transform:translateY(10px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+/* ── Page headings ── */
+h1.text-center, h2.text-center {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -.01em;
+  color: var(--black);
+}
+
+/* ── Cards ── */
+.card {
+  background: var(--white) !important;
+  border: 1px solid var(--ghost) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow) !important;
+  transition: box-shadow var(--tr), transform var(--tr) !important;
+}
+.card:hover {
+  box-shadow: var(--shadow-hover) !important;
+  transform: translateY(-3px) !important;
+}
+
+.card-title {
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 13.5px !important;
+  color: var(--black) !important;
+}
+
+/* Price text */
+.fw-bold.fs-5.text-success {
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: var(--black) !important;
+}
+
+/* ── Stagger animation ── */
+.row .col-md-4, .row .col-sm-6 {
+  animation: rise .4s ease both;
+}
+.row .col-md-4:nth-child(1),.row .col-sm-6:nth-child(1){animation-delay:.04s}
+.row .col-md-4:nth-child(2),.row .col-sm-6:nth-child(2){animation-delay:.08s}
+.row .col-md-4:nth-child(3),.row .col-sm-6:nth-child(3){animation-delay:.12s}
+.row .col-md-4:nth-child(4),.row .col-sm-6:nth-child(4){animation-delay:.16s}
+.row .col-md-4:nth-child(5),.row .col-sm-6:nth-child(5){animation-delay:.20s}
+.row .col-md-4:nth-child(6),.row .col-sm-6:nth-child(6){animation-delay:.24s}
+@keyframes rise {
+  from { opacity:0; transform:translateY(14px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+/* ── Global buttons ── */
+.btn {
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  letter-spacing: .01em !important;
+  text-transform: none !important;
+  border-radius: var(--radius) !important;
+  padding: 9px 20px !important;
+  transition: all var(--tr) !important;
+}
+.btn:active { transform: scale(.97) !important; }
+
+/* Primary — black */
+.btn-primary {
+  background: var(--black) !important;
+  border-color: var(--black) !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.btn-primary:hover {
+  background: #333 !important;
+  border-color: #333 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15) !important;
+}
+
+/* Success */
+.btn-success {
+  background: var(--black) !important;
+  border-color: var(--black) !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.btn-success:hover {
+  background: #333 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,.12) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Secondary (ADD TO CART) */
+.btn-secondary {
+  background: var(--black) !important;
+  border-color: var(--black) !important;
+  color: white !important;
+}
+.btn-secondary:hover {
+  background: #333 !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Danger */
+.btn-danger {
+  background: white !important;
+  border: 1px solid var(--ghost) !important;
+  color: var(--red) !important;
+}
+.btn-danger:hover {
+  background: #fff0f0 !important;
+  border-color: #fcc !important;
+}
+
+/* Outline secondary (category) */
+.btn-outline-secondary {
+  background: white !important;
+  border: 1px solid var(--ghost) !important;
+  color: var(--mid) !important;
+  border-radius: 4px !important;
+  font-size: 12.5px !important;
+  padding: 5px 14px !important;
+  letter-spacing: 0 !important;
+}
+.btn-outline-secondary:hover {
+  border-color: var(--black) !important;
+  color: var(--black) !important;
+  background: white !important;
+}
+
+/* Category active */
+.category .btn-secondary {
+  background: var(--black) !important;
+  border-color: var(--black) !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+/* ── Search ── */
+input[type="search"] {
+  background: var(--bg) !important;
+  border: 1px solid var(--ghost) !important;
+  border-radius: 4px !important;
+  padding: 8px 16px !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 13px !important;
+  color: var(--black) !important;
+  outline: none !important;
+}
+input[type="search"]:focus {
+  border-color: var(--black) !important;
+  box-shadow: none !important;
+  background: white !important;
+}
+input[type="search"]::placeholder { color: var(--light); }
+
+/* ── Form controls ── */
+.form-control, .form-select {
+  background: var(--white) !important;
+  border: 1px solid var(--ghost) !important;
+  border-radius: var(--radius) !important;
+  color: var(--black) !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 13.5px !important;
+  padding: 10px 14px !important;
+  transition: border-color var(--tr) !important;
+}
+.form-control:focus, .form-select:focus {
+  border-color: var(--black) !important;
+  box-shadow: none !important;
+  background: var(--white) !important;
+}
+.form-control::placeholder { color: var(--light); }
+
+/* ── Auth forms (Login / Register) ── */
+.form {
+  background: var(--white);
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 40px 36px;
+  border-radius: var(--radius);
+  border: 1px solid var(--ghost);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  animation: form-in .4s ease both;
+}
+@keyframes form-in {
+  from { opacity:0; transform:translateY(16px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+.form h1, .form h4 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--black);
+  text-align: center;
+}
+
+.form small {
+  font-size: 11.5px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--light);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 14px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px 13px;
+  background: var(--bg);
+  border: 1px solid var(--ghost);
+  border-radius: var(--radius);
+  color: var(--black);
+  font-family: 'Manrope', sans-serif;
+  font-size: 13.5px;
+  outline: none;
+  margin-top: 5px;
+  transition: border-color var(--tr);
+}
+.form input:focus {
+  border-color: var(--black);
+  background: white;
+  box-shadow: none;
+}
+.form input::placeholder { color: var(--light); font-size: 13px; }
+
+.form button[type="submit"] {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: var(--black);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: .04em;
+  cursor: pointer;
+  transition: background var(--tr), transform var(--tr);
+}
+.form button[type="submit"]:hover {
+  background: #333;
+  transform: translateY(-1px);
+}
+
+.form div[style] button {
+  background: transparent !important;
+  border: none !important;
+  color: var(--light) !important;
+  font-size: 12px !important;
+  font-family: 'Manrope', sans-serif !important;
+  cursor: pointer !important;
+  transition: color var(--tr) !important;
+}
+.form div[style] button:hover { color: var(--black) !important; }
+
+.form a { color: var(--black); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+.form p { color: var(--mid); font-size: 13px; }
+
+/* Validation errors */
+.erorr {
+  color: var(--red);
+  font-size: 12px;
+  margin: 4px 0 0;
+  min-height: 16px;
+  animation: err-shake .3s ease;
+}
+@keyframes err-shake {
+  0%,100%{transform:translateX(0)}
+  25%{transform:translateX(-4px)}
+  75%{transform:translateX(4px)}
+}
+
+/* ── Cart cards ── */
+.card-body h5 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13.5px;
+  color: var(--black);
+  font-weight: 600;
+}
+.card-body p { color: var(--mid) !important; font-size: 13px !important; }
+.text-end.mt-4 h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--black);
+}
+
+/* ── Orders ── */
+.card.mb-4 h6 {
+  font-size: 12px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mid);
+  font-weight: 600;
+}
+.text-success { color: var(--black) !important; }
+
+.badge.bg-success {
+  background: var(--bg) !important;
+  color: var(--dark) !important;
+  border: 1px solid var(--ghost) !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: .06em !important;
+  text-transform: uppercase !important;
+  border-radius: 4px !important;
+  padding: 4px 10px !important;
+}
+
+/* ── Spinner ── */
+.spinner-border { color: var(--black) !important; border-width: 2px !important; }
+
+/* ── HR ── */
+hr { border-color: var(--ghost) !important; margin: 14px 0 !important; }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: #d0d0d0; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--black); }
+
+/* ── Selection ── */
+::selection { background: rgba(0,0,0,.1); }
+
+/* ── Page background ── */
+main, #root { background: var(--white); }
+
+/* ── Green Go to Cart Button ── */
+.btn-cart-green {
+  background-color: var(--green) !important;
+  border-color: var(--green) !important;
+  color: white !important;
+  box-shadow: none !important;
+  transition: all var(--tr) !important;
+}
+.btn-cart-green:hover {
+  background-color: #23854b !important; /* slightly darker green */
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,.12) !important;
+}

@@ -1,0 +1,13 @@
+.login-card {
+  width: 350px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.login-card h2 {
+  color: #343a40;
+}
+
+body {
+  background-color: #e9ecef;
+}

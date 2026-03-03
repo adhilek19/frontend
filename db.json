@@ -1,0 +1,962 @@
+{
+  "users": [
+    {
+      "id": "776c",
+      "name": "jamsheed ",
+      "email": "jamsheed@gmail.com",
+      "password": "1234567890",
+      "status": "active"
+    },
+    {
+      "id": "e0f3",
+      "name": "adhil ek",
+      "email": "adhilek@gmail.com",
+      "password": "12344321",
+      "status": "active"
+    },
+    {
+      "id": "5730",
+      "name": "shalmk",
+      "email": "shalmk@gmail.com",
+      "password": "1234567890",
+      "status": "active"
+    },
+    {
+      "id": "882e",
+      "name": "rameesh",
+      "email": "rameesh@gmail.com",
+      "password": "1234567890",
+      "status": "active"
+    },
+    {
+      "id": "b90c",
+      "name": "chinju",
+      "email": "chinju@gmail.com",
+      "password": "123321",
+      "status": "active"
+    },
+    {
+      "id": "6ec0",
+      "name": "neenu",
+      "email": "neenu@gmail.com",
+      "password": "neenu@gmail.com",
+      "status": "active"
+    },
+    {
+      "id": "0aeb",
+      "name": "messi",
+      "email": "messi@gmail.com",
+      "password": "101010",
+      "status": "active"
+    },
+    {
+      "id": "c312",
+      "name": "adhilek",
+      "email": "adhilek100@gmail.com",
+      "password": "12345678"
+    }
+  ],
+  "products": [
+    {
+      "name": "iPhone 17 ",
+      "category": "iphone",
+      "price": "136999",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+      "specs": "12GB RAM | 256GB storage",
+      "id": "1"
+    },
+    {
+      "name": "iPhone 16 Plus",
+      "category": "iphone",
+      "price": 69999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70&crop=false",
+      "specs": "12GB RAM | 256GB Storage",
+      "id": "2"
+    },
+    {
+      "name": "iPhone Air",
+      "category": "iphone",
+      "price": 156999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/o/9/-original-imahft57w68athx4.jpeg?q=70&crop=false",
+      "specs": "12GB RAM | 512GB Storage",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "category": "iphone",
+      "name": "iPhone 14",
+      "price": 69999,
+      "specs": "8GB RAM | 256GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/m/o/b/-original-imaghx9qkugtbfrn.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "5",
+      "category": "iphone",
+      "name": "iPhone 13",
+      "price": 51999,
+      "specs": "128GB Storage | 8GB RAM",
+      "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "6",
+      "category": "iphone",
+      "name": "iPhone 13 Pro",
+      "price": 56999,
+      "specs": "128GB Storage | 8GB RAM",
+      "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/a/e/g/iphone-13-pro-mlvw3hn-a-apple-original-imag6vpcvspnzyfy.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "7",
+      "category": "samsung",
+      "name": "Samsung Galaxy S23",
+      "price": 46999,
+      "specs": "12GB RAM | Snapdragon 8 Gen ",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/i/b/d/-original-imahfz2tuqdczpfg.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "8",
+      "category": "samsung",
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 126999,
+      "specs": "512GB Storage | 12GB RAM",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/k/h/-original-imagzm8qmr7qxfhq.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "9",
+      "category": "samsung",
+      "name": "Samsung Galaxy A54",
+      "price": 29999,
+      "specs": "8GB RAM | 256GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/w/q/-original-imagnrhkjwg8ngzh.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "10",
+      "category": "samsung",
+      "name": "Samsung Galaxy M14",
+      "price": 12999,
+      "specs": "4GB RAM | 64GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/6/2/5/galaxy-m14-5g-sm-m146b-samsung-original-imagzwrqnpzujxks.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "11",
+      "category": "pixel",
+      "name": "Google Pixel 10 5G",
+      "price": 76999,
+      "specs": "256GB Storage | 12GB RAM",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/i/8/y/-original-imahfjsfdmpbbhhb.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "12",
+      "category": "pixel",
+      "name": "Google Pixel 9A",
+      "price": 44999,
+      "specs": "128GB Storage | 6GB RAM",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/q/f/-original-imahadxg8mgjzrfh.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "13",
+      "category": "pixel",
+      "name": "Google Pixel 8",
+      "price": 59999,
+      "specs": "128GB Storage | 8GB RAM",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/q/g/-original-imagtwh52pjgzb8w.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "14",
+      "category": "pixel",
+      "name": "Google Pixel 7A",
+      "price": 22999,
+      "specs": "128GB Storage | 4GB RAM",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/b/o/pixel-7a-ghl1x-google-original-imah3j74pte7amu9.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "15",
+      "category": "redmi",
+      "name": "Redmi Note 13 Pro",
+      "price": 17999,
+      "specs": "6GB RAM | 128GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/s/y/5/-original-imagwu894yyhyyce.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "16",
+      "category": "redmi",
+      "name": "Redmi Note 13",
+      "price": 13999,
+      "specs": "4GB RAM | 64GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/f/6/y/note-13-5g-2312draabi-redmi-original-imahyzyfhkfrnukq.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "17",
+      "category": "redmi",
+      "name": "Redmi 12 5G",
+      "price": 11999,
+      "specs": "4GB RAM | 128GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/k/3/-original-imagxaqtqkpakgpm.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "18",
+      "category": "realme",
+      "name": "Realme GT Neo 5",
+      "price": 27999,
+      "specs": "12GB RAM | 256GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/l3rmzrk0/mobile/p/n/u/-original-imagetmezhss8jzf.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "19",
+      "category": "realme",
+      "name": "Realme 12 Pro",
+      "price": 19999,
+      "specs": "8GB RAM | 128GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/x/c/-original-imagx6rdpmhuq5ba.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "20",
+      "category": "realme",
+      "name": "Realme 11 Pro+",
+      "price": 34999,
+      "specs": "12GB RAM | 256GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/8/d/-original-imagqadpnygfnn2v.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "21",
+      "name": "Vivo V29",
+      "category": "vivo",
+      "price": 29999,
+      "specs": "12GB RAM | 256GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/e/x/v29-5g-v2250-vivo-original-imagtyqfjag4qbdw.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "22",
+      "name": "Vivo V28",
+      "category": "vivo",
+      "price": 23999,
+      "specs": "8GB RAM | 128GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/2/g/j/-original-imah2ygvxhtwuwf3.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "23",
+      "name": "Vivo Y100",
+      "category": "vivo",
+      "price": 15999,
+      "specs": "6GB RAM | 128GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/d/4/-original-imagmvgcnpanjhdx.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "24",
+      "name": "Oppo Reno 11 Pro",
+      "category": "oppo",
+      "price": 26999,
+      "specs": "12GB RAM | 256GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/t/v/2/-original-imagwxvryg2hzd9n.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "25",
+      "name": "Oppo F21s",
+      "category": "oppo",
+      "price": 18999,
+      "specs": "8GB RAM | 128GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/h/j/f21s-pro-cph2461-oppo-original-imagrwbnbwbfvxtz.jpeg?q=70&crop=false"
+    },
+    {
+      "name": "Samsung Galaxy Z Flip 5",
+      "category": "samsung",
+      "price": "99899",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/2/j/d/-original-imagztmgzp8ewjhn.jpeg?q=70&crop=false",
+      "id": "27"
+    },
+    {
+      "id": "28",
+      "name": "Samsung Galaxy Z Fold 5",
+      "category": "samsung",
+      "price": 154999,
+      "specs": "12GB RAM | 512GB Storage",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/j/k/-original-imagztmggmgfdt8d.jpeg?q=70&crop=false"
+    },
+    {
+      "name": "iPhone 12",
+      "category": "iphone",
+      "price": "38999",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/j/f/9/apple-iphone-12-dummyapplefsn-original-imafwg8dkyh2zgrh.jpeg?q=70&crop=false",
+      "id": "29"
+    },
+    {
+      "name": "MOTOROLA G96",
+      "category": "motorola",
+      "price": "19000",
+      "image": "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/p/6/r/-original-imahgqnzbwhbqywa.jpeg?q=70&crop=false",
+      "specs": "12GB RAM | 128 GB Storage",
+      "id": "239e"
+    },
+    {
+      "name": "samsung",
+      "category": "samsung",
+      "price": "6000",
+      "image": "https://rukminim2.flixcart.com/image/416/416/mobile/f/s/k/samsung-galaxy-j7-sm-j700f-original-imae9cdffd5t4yzb.jpeg?q=70&crop=false",
+      "specs": "12gb ram ",
+      "id": "daef"
+    }
+  ],
+  "cart": [
+    {
+      "id": "d3ec",
+      "userId": "14ab",
+      "productId": "1",
+      "name": "iPhone 17",
+      "price": 136999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "e638",
+      "userId": "14ab",
+      "productId": "8",
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 126999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/k/h/-original-imagzm8qmr7qxfhq.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "618b",
+      "userId": "14ab",
+      "productId": "17",
+      "name": "Redmi 12 5G",
+      "price": 11999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/k/3/-original-imagxaqtqkpakgpm.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "89d0",
+      "userId": "14ab",
+      "productId": "19",
+      "name": "Realme 12 Pro",
+      "price": 19999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/x/c/-original-imagx6rdpmhuq5ba.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "5895",
+      "userId": "14ab",
+      "productId": "5",
+      "name": "iPhone 13",
+      "price": 51999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "400c",
+      "userId": "776c",
+      "productId": "5",
+      "name": "iPhone 13",
+      "price": 51999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "1f02",
+      "userId": "776c",
+      "productId": "2",
+      "name": "iPhone 16 Plus",
+      "price": 69999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "1dff",
+      "userId": "776c",
+      "productId": "8",
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 126999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/k/h/-original-imagzm8qmr7qxfhq.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "07b7",
+      "userId": "5730",
+      "productId": "14",
+      "name": "Google Pixel 7A",
+      "price": 22999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/b/o/pixel-7a-ghl1x-google-original-imah3j74pte7amu9.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "c18f",
+      "userId": "5730",
+      "productId": "13",
+      "name": "Google Pixel 8",
+      "price": 59999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/q/g/-original-imagtwh52pjgzb8w.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "1cd2",
+      "userId": "6ec0",
+      "productId": "11",
+      "name": "Google Pixel 10 5G",
+      "price": 76999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/i/8/y/-original-imahfjsfdmpbbhhb.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "b4b2",
+      "userId": "e0f3",
+      "productId": "1",
+      "name": "iPhone 17 ",
+      "price": "136999",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "205b",
+      "userId": "c312",
+      "productId": "1",
+      "name": "iPhone 17 ",
+      "price": "136999",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "c84d",
+      "userId": "c312",
+      "productId": "2",
+      "name": "iPhone 16 Plus",
+      "price": 69999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70&crop=false",
+      "quantity": 1
+    },
+    {
+      "id": "686b",
+      "userId": "c312",
+      "productId": "3",
+      "name": "iPhone Air",
+      "price": 156999,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/o/9/-original-imahft57w68athx4.jpeg?q=70&crop=false",
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": "922d",
+      "userId": "16be",
+      "items": [
+        {
+          "id": "b5f6",
+          "userId": "16be",
+          "productId": "17",
+          "name": "Redmi 12 5G",
+          "price": 11999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/k/3/-original-imagxaqtqkpakgpm.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 11999,
+      "address": "kavanoor ",
+      "payment": "cod",
+      "date": "Wed Dec 17 2025",
+      "status": "delivered"
+    },
+    {
+      "id": "720f",
+      "userId": "16be",
+      "items": [
+        {
+          "id": "076a",
+          "userId": "16be",
+          "productId": "2",
+          "name": "iPhone 16 Plus",
+          "price": 69999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70&crop=false",
+          "quantity": 1
+        },
+        {
+          "id": "b5f6",
+          "userId": "16be",
+          "productId": "17",
+          "name": "Redmi 12 5G",
+          "price": 11999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/k/3/-original-imagxaqtqkpakgpm.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 81998,
+      "address": "igfd",
+      "payment": "upi",
+      "date": "Wed Dec 17 2025",
+      "status": "delivered"
+    },
+    {
+      "id": "ad0c",
+      "userId": "16be",
+      "items": [
+        {
+          "id": "076a",
+          "userId": "16be",
+          "productId": "2",
+          "name": "iPhone 16 Plus",
+          "price": 69999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70&crop=false",
+          "quantity": 1
+        },
+        {
+          "id": "b5f6",
+          "userId": "16be",
+          "productId": "17",
+          "name": "Redmi 12 5G",
+          "price": 11999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/k/3/-original-imagxaqtqkpakgpm.jpeg?q=70&crop=false",
+          "quantity": 1
+        },
+        {
+          "id": "c8d8",
+          "userId": "16be",
+          "productId": "5",
+          "name": "iPhone 13",
+          "price": 51999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 133997,
+      "address": "ewertyu",
+      "payment": "card",
+      "date": "Wed Dec 17 2025",
+      "status": "delivered"
+    },
+    {
+      "id": "7b59",
+      "userId": "14ab",
+      "items": [
+        {
+          "id": "d3ec",
+          "userId": "14ab",
+          "productId": "1",
+          "name": "iPhone 17",
+          "price": 136999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 136999,
+      "address": "WERTYUIO",
+      "payment": "cod",
+      "date": "Wed Dec 17 2025",
+      "status": "delivered"
+    },
+    {
+      "id": "d63c",
+      "userId": null,
+      "products": [
+        {
+          "id": "9774",
+          "userId": "60b4",
+          "productId": "1",
+          "name": "iPhone 17 pro",
+          "price": "136999",
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": "136999",
+      "address": {
+        "name": "adhil ek",
+        "phone": "97446382920",
+        "place": "manjeri",
+        "pin": "676123",
+        "fullAddress": "enthan khuzhiyan koottavil (ho)"
+      },
+      "payment": "cod",
+      "date": "12/21/2025, 10:53:02 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "e4c2",
+      "userId": "776c",
+      "products": [
+        {
+          "id": "1dff",
+          "userId": "776c",
+          "productId": "8",
+          "name": "Samsung Galaxy S23 Ultra",
+          "price": 126999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/k/h/-original-imagzm8qmr7qxfhq.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 126999,
+      "address": {
+        "name": "jamsheed",
+        "phone": "2345678",
+        "place": "mjnhbgvf",
+        "pin": "765",
+        "fullAddress": "nuyhbtgf"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 2:10:43 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "9b50",
+      "userId": "5730",
+      "products": [
+        {
+          "id": "9774",
+          "userId": null,
+          "productId": "1",
+          "name": "iPhone 17 pro",
+          "price": "136999",
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        },
+        {
+          "id": "07b7",
+          "userId": "5730",
+          "productId": "14",
+          "name": "Google Pixel 7A",
+          "price": 22999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/b/o/pixel-7a-ghl1x-google-original-imah3j74pte7amu9.jpeg?q=70&crop=false",
+          "quantity": 1
+        },
+        {
+          "id": "c18f",
+          "userId": "5730",
+          "productId": "13",
+          "name": "Google Pixel 8",
+          "price": 59999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/q/g/-original-imagtwh52pjgzb8w.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 219997,
+      "address": {
+        "name": "shal",
+        "phone": "43567867",
+        "place": "koottavil",
+        "pin": "786",
+        "fullAddress": "kootavil house"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 4:03:46 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "0783",
+      "userId": "882e",
+      "products": [
+        {
+          "id": "9774",
+          "userId": null,
+          "productId": "1",
+          "name": "iPhone 17 pro",
+          "price": "136999",
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": "136999",
+      "address": {
+        "name": "rameesh ",
+        "phone": "2304923409-",
+        "place": ";lkwdfbn",
+        "pin": "340348u9",
+        "fullAddress": " ygkuhbjkjnlmge"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 4:05:46 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "7bc5",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "9774",
+          "userId": null,
+          "productId": "1",
+          "name": "iPhone 17 pro",
+          "price": "136999",
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 136999,
+      "address": {
+        "name": "neenu ",
+        "phone": "8848717499",
+        "place": "manjeri",
+        "pin": "676123",
+        "fullAddress": "manjeri,malappuram"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 9:48:30 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "0493",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "9774",
+          "userId": null,
+          "productId": "1",
+          "name": "iPhone 17 pro",
+          "price": "136999",
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 136999,
+      "address": {
+        "name": "wrr",
+        "phone": " fvr",
+        "place": "q35g",
+        "pin": "34",
+        "fullAddress": "3434t4iji"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 9:52:43 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "cae0",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "4890",
+          "userId": "6ec0",
+          "productId": "3",
+          "name": "iPhone Air",
+          "price": 156999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/o/9/-original-imahft57w68athx4.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 156999,
+      "address": {
+        "name": "qwoepwvirn",
+        "phone": "qepkwm",
+        "place": "[pweopmv",
+        "pin": "wepl",
+        "fullAddress": "wpeoinmv"
+      },
+      "payment": "card",
+      "date": "12/22/2025, 9:56:53 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "4759",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "4890",
+          "userId": "6ec0",
+          "productId": "3",
+          "name": "iPhone Air",
+          "price": 156999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/o/9/-original-imahft57w68athx4.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 156999,
+      "address": {
+        "name": "qswdevfb",
+        "phone": "34567",
+        "place": "lkuytreduytrdc",
+        "pin": "098765432",
+        "fullAddress": "kal:argL;Ask ,akrw "
+      },
+      "payment": "upi",
+      "date": "12/22/2025, 10:01:43 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "7498",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "9774",
+          "userId": null,
+          "productId": "1",
+          "name": "iPhone 17 pro",
+          "price": "136999",
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        },
+        {
+          "id": "4e0d",
+          "userId": "6ec0",
+          "productId": "2",
+          "name": "iPhone 16 Plus",
+          "price": 69999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70&crop=false",
+          "quantity": 1
+        },
+        {
+          "id": "912b",
+          "userId": "6ec0",
+          "productId": "3",
+          "name": "iPhone Air",
+          "price": 156999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/o/9/-original-imahft57w68athx4.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 363997,
+      "address": {
+        "name": "s54dytuvk",
+        "phone": "6d557",
+        "place": "fcy",
+        "pin": "76654",
+        "fullAddress": "fnxyr"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 10:10:09 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "c085",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "71a0",
+          "userId": "6ec0",
+          "productId": "15",
+          "name": "Redmi Note 13 Pro",
+          "price": 17999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/s/y/5/-original-imagwu894yyhyyce.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 17999,
+      "address": {
+        "name": "[oqwfji",
+        "phone": "1930",
+        "place": "poif",
+        "pin": "23i9",
+        "fullAddress": "2efij"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 10:18:37 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "5941",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "af1c",
+          "userId": "6ec0",
+          "productId": "11",
+          "name": "Google Pixel 10 5G",
+          "price": 76999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/i/8/y/-original-imahfjsfdmpbbhhb.jpeg?q=70&crop=false",
+          "quantity": 8
+        }
+      ],
+      "total": 615992,
+      "address": {
+        "name": "ef",
+        "phone": "ef",
+        "place": "fe",
+        "pin": "ef",
+        "fullAddress": "wef"
+      },
+      "payment": "cod",
+      "date": "12/22/2025, 10:20:50 PM",
+      "status": "delivered"
+    },
+    {
+      "id": "8277",
+      "userId": "6ec0",
+      "products": [
+        {
+          "id": "4f68",
+          "userId": "6ec0",
+          "productId": "10",
+          "name": "Samsung Galaxy M14",
+          "price": 12999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/6/2/5/galaxy-m14-5g-sm-m146b-samsung-original-imagzwrqnpzujxks.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 12999,
+      "address": {
+        "name": "neenu",
+        "phone": "8848717499",
+        "place": "koottavil",
+        "pin": "616728",
+        "fullAddress": "askjdjjkfj"
+      },
+      "payment": "upi",
+      "date": "12/23/2025, 9:33:00 AM",
+      "status": "delivered"
+    },
+    {
+      "id": "feee",
+      "userId": "0aeb",
+      "products": [
+        {
+          "id": "578c",
+          "userId": "0aeb",
+          "productId": "17",
+          "name": "Redmi 12 5G",
+          "price": 11999,
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/k/k/3/-original-imagxaqtqkpakgpm.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 11999,
+      "address": {
+        "name": "adhilek",
+        "phone": "8848714788",
+        "place": "koottav",
+        "pin": "676123",
+        "fullAddress": "koottavil house"
+      },
+      "payment": "upi",
+      "date": "12/23/2025, 9:48:13 AM",
+      "status": "delivered"
+    },
+    {
+      "id": "3539",
+      "userId": "c312",
+      "products": [
+        {
+          "id": "042d",
+          "userId": "c312",
+          "productId": "1",
+          "name": "iPhone 17 ",
+          "price": "136999",
+          "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70&crop=false",
+          "quantity": 1
+        }
+      ],
+      "total": 136999,
+      "address": {
+        "name": "poksvdm",
+        "phone": " kvl",
+        "place": "vksd",
+        "pin": "sdlk",
+        "fullAddress": "skd"
+      },
+      "payment": "cod",
+      "date": "12/24/2025, 3:31:17 PM",
+      "status": "delivered"
+    }
+  ],
+  "admin": [
+    {
+      "id": "776c",
+      "name": "jamsheed ",
+      "email": "jamsheed@gmail.com",
+      "password": "1234567890",
+      "role": "admin"
+    },
+    {
+      "id": "f7fd",
+      "name": "adhilek",
+      "email": "adhilek@gmail.com",
+      "password": "12344321",
+      "role": "admin"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
